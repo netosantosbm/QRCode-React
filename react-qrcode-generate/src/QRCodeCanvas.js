@@ -2,6 +2,8 @@ import React, {useEffect, useRef} from 'react'
 import  QRCode  from 'qrcode'
 
 
+
+
 export default function QRCodeCanvas({ text }) {
     
     const canvasRef = useRef() 

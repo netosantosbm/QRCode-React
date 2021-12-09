@@ -6,14 +6,18 @@ import QRCodeCanvas from './QRCodeCanvas';
 function App() {
   const [text, setText] = useState("")
   return (
+    
     <div className="App">
-      <header className="App-header">
+        <form>
         <img src={logo} className="App-logo" alt="logo" />
-        <input onChange={(element) => { setText(element.target.value)}}></input>  
-        <QRCodeCanvas text={text}></QRCodeCanvas>
-      </header>
-      
-    </div>
+        <h3>Gerador de QR-Code</h3>
+        <input className="input-cod" onChange={(element) => { setText(element.target.value)}}></input>  
+        
+        </form>
+        <div className="Container">
+        <QRCodeCanvas  text={text}></QRCodeCanvas>
+        </div>
+      </div>
   );
 }
 
