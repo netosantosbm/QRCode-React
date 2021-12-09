@@ -10,8 +10,8 @@ function App() {
     <div className="App">
         <form>
         <img src={logo} className="App-logo" alt="logo" />
-        <h3>Gerador de QR-Code</h3>
-        <input onChange={(element) => { setText(element.target.value)}}></input>  
+        <h4>Insira seu URL Aqui:</h4>
+        <input className="input" onChange={(element) => { setText(element.target.value)}}></input>  
         
         </form>
         <div className="Container">

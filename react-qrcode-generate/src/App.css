@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   background-color: #252525;
-  height: 100vh
+  height: 130vh
 }
 .Color {
   padding: 5px;
@@ -11,14 +11,12 @@
 }
 .Container{
   background-color: #252525;
-  margin: 100px auto;
-  border: 1px solid rgb(68, 68, 68);
-  border-radius: 1em;
-  background-color: #999595;
-  width: 200px;
-  height: 200px;   
+  margin: 10px auto;
+  border: 3px solid rgb(0, 0, 0);
+  background-color: #00000000;
+  width: 365px;
+  height: 368px;   
 } 
-width: 400px;\gh
 form {
   margin: auto;
   padding: 1em;
@@ -35,15 +33,17 @@ input {
   width: 300px;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 1px solid #999;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
 }
 .Action {
   padding-left: 90px; 
 }
 
 .App-logo {
-  height: 20vmin;
+  height: 30vmin;
   pointer-events: none;
+  
 }
 .App-header {
   background-color: #282c34;
